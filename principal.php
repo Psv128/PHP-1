@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,26 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <!-- Cabecera: se incluye desde archivo externo -->
     <header>
         <?php
+        // Incluye la cabecera con estilos y título
         include 'cabecera.inc.php';
-        
         ?>
     </header>
     <main>
+        <!-- Sección de presentación personal -->
         <section>
             <img src="pikmin.png" alt="Foto" width="200">
             <p> Soy desarrollador web con experiencia en HTML, CSS, java etc. </p>
         </section>
+        <!-- Navegación a otras páginas del sitio -->
         <nav>
             <h2>Mis páginas:</h2>
             <ul>
                 <li><a href="tecnologia.php">Tecnologia Lista</a></li>
                 <li><a href="tecnologias.php">Tecnologias Ordenada</a></li>
                 <li><a href="rrss.php">Redes Sociales</a></li>
-                <li><a href="server.php">Server</a></li>
             </ul>
         </nav>
+        <!-- Sección de contacto con formulario -->
         <section>
             <h2>Contacto</h2>
             <p>
@@ -42,6 +46,7 @@
             </form>
         </section>
     </main>
+    <!-- Pie de página (footer) -->
     <footer>
         
     </footer>
